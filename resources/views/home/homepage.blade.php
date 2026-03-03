@@ -161,7 +161,7 @@
 </div>
 </section>
 
-
+{{-- 
 <section class="app-download-area">
 <div class="container">
 <div class="row align-items-center">
@@ -201,7 +201,7 @@ Download on
 </div>
 </div>
 </div>
-</section>
+</section> --}}
 
 
 <section class="account-create-area">
