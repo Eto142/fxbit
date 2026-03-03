@@ -8,8 +8,10 @@
 {{-- <h1>We offer a wide range of bank accounts for your banking needs.</h1> --}}
 <h1>Fast and secure for international transactions with 100% security.</h1>
 <p>At Fxbitoz Globals, we are constantly thinking about you!</p>
-<a href="{{ route('register') }}" class="btn btn-primary">Open an account</a>
-<br>
+<div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;">
+    <a href="{{ route('register') }}" class="btn btn-primary" style="padding:12px 28px; font-weight:600;">Open an Account</a>
+    <a href="{{ route('login') }}" class="btn btn-outline-light" style="padding:12px 28px; font-weight:600;">Login</a>
+</div>
 </div>
 </div>
 </div>
@@ -17,7 +19,7 @@
 </div>
 
 
-<section class="featured-boxes-area">
+<section class="featured-boxes-area" style="margin-top:30px;">
 <div class="container">
 <div class="featured-boxes-inner">
 <div class="row m-0">
