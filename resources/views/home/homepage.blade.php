@@ -85,10 +85,11 @@
 </div>
 <div class="overview-image">
 <div class="image">
-<img src="assets/img/1.png" alt="image">
+<img src="{{ asset('assets1/img/1.png') }}" alt="image">
 <div class="circle-img">
-<img src="assets/img/circle.png" alt="image">
+<img src="{{ asset('assets1/img/circle.png') }}" alt="image">
  </div>
+</div>
 </div>
 </div>
 </div>
@@ -144,7 +145,7 @@
 
 </div>
 <div class="map-bg">
-<img src="assets/img/map.png" alt="map">
+<img src="{{ asset('assets1/img/map.png') }}" alt="map">
 </div>
 </div>
 </section>
