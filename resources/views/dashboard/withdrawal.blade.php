@@ -72,7 +72,7 @@
                                         onchange="updateDetailsField()">
                                         <option value="" disabled selected>Select Method</option>
                                         <option value="Bank">Bank</option>
-                                        <option value="Trade Account">Trade Account</option>
+                                        {{-- <option value="Trade Account">Trade Account</option> --}}
                                     </select>
                                 </div>
 

@@ -256,12 +256,12 @@
             </div>
           </div>
 
-          <!-- Additional Wallet Information -->
+          {{-- <!-- Additional Wallet Information -->
           <div class="row g-3 mb-3">
             <div class="col-6">
               <h3 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($pending_deposits_sum, 2) }}</h3>
               <p class="text-center text-white h6">Pending Deposits</p>
-            </div>
+            </div> --}}
 
             <div class="col-6">
               <h3 class="text-center text-white display-6"> {{Auth::user()->currency_symbol}} {{ number_format($successful_deposits_sum, 2) }}</h3>
@@ -274,14 +274,14 @@
 
           <!-- Withdrawals Information -->
           <div class="row g-3 mb-3">
-            <div class="col-6">
+            {{-- <div class="col-6">
               <h3 class="text-center text-white display-6"> {{Auth::user()->currency_symbol}} {{ number_format($pending_withdrawals_sum, 2) }}</h3>
               <p class="text-center text-white h6">Pending Debits</p>
-            </div>
-            <div class="col-6">
+            </div> --}}
+            {{-- <div class="col-6">
               <h3 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($successful_withdrawals_sum, 2) }}</h3>
               <p class="text-center text-white h6">Successful Debits</p>
-            </div>
+            </div> --}}
           </div>
 
           <!-- Signal Strength -->
