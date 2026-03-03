@@ -5,7 +5,8 @@
 <div class="d-table-cell">
 <div class="container">
 <div class="main-banner-content">
-<h1>We offer a wide range of bank accounts for your banking needs.</h1>
+{{-- <h1>We offer a wide range of bank accounts for your banking needs.</h1> --}}
+<h1>Fast and secure for international transactions with 100% security.</h1>
 <p>At Fxbitoz Globals, we are constantly thinking about you!</p>
 <a href="{{ route('register') }}" class="btn btn-primary">Open an account</a>
 </div>

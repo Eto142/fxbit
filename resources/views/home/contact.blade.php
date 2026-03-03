@@ -90,7 +90,22 @@
                                 <h2 class="item-title">We Love To Hear From You</h2>
                                 <p>Please call or email contact form and we will be happy to assist you.</p>
                             </div>
-                            <form class="message-box" id="contact-form">
+                            @if(session('success'))
+                                <div class="alert alert-success" style="padding:12px 16px; margin-bottom:16px; background:#d4edda; color:#155724; border-radius:4px;">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if($errors->any())
+                                <div class="alert alert-danger" style="padding:12px 16px; margin-bottom:16px; background:#f8d7da; color:#721c24; border-radius:4px;">
+                                    <ul style="margin:0; padding-left:18px;">
+                                        @foreach($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                            <form class="message-box" id="contact-form" method="POST" action="{{ route('contact.send') }}">
+                                @csrf
                                 <div class="row gutters-10">
                                     <div class="col-lg-6 form-group">
                                         <input type="text" class="form-control" name="fname" placeholder="First Name*" data-error="First Name is required" required>

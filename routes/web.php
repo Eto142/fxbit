@@ -23,6 +23,7 @@ use App\Http\Controllers\Admin\WithdrawalController;
 use App\Http\Controllers\Admin\SmtpSettingController;
 use App\Http\Controllers\Admin\TradingPlanController;
 use App\Http\Controllers\Admin\PaymentSettingController;
+use App\Mail\ContactMail;
 
 Route::get('/', function () {
     // Fetch all trading plans from the database
@@ -40,6 +41,30 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('home.contact');
 });
+Route::post('/contact', function (\Illuminate\Http\Request $request) {
+    $request->validate([
+        'fname'   => 'required|string|max:100',
+        'lname'   => 'required|string|max:100',
+        'email'   => 'required|email|max:200',
+        'phone'   => 'required|string|max:30',
+        'subject' => 'required|string|max:255',
+        'message' => 'required|string',
+    ]);
+
+    $details = [
+        'name'        => $request->fname . ' ' . $request->lname,
+        'email'       => $request->email,
+        'phone'       => $request->phone,
+        'subject'     => $request->subject,
+        'bodyMessage' => $request->message,
+    ];
+
+    $supportEmail = env('SUPPORT_EMAIL', 'support@fxbitozglobals.com');
+
+    \Illuminate\Support\Facades\Mail::to($supportEmail)->send(new ContactMail($details));
+
+    return back()->with('success', 'Your message has been sent! We will get back to you shortly.');
+})->name('contact.send');
 Route::get('/faq', function () {
     return view('home.faq');
 });
