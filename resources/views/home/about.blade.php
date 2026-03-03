@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="consulting-service2">
-                            <p>FXBit OZ Globals is a premier global investment and trading platform committed to empowering individuals and institutions with world-class financial solutions. Our employees are empowered to do the right thing to ensure they share our customers' vision for success. We work as a partner to provide financial products and services that make banking safe, simple and convenient.</p>
+                            <p>FXBit OZ Globals is a premier global banking investment and trading platform committed to empowering individuals and institutions with world-class financial solutions. Our employees are empowered to do the right thing to ensure they share our customers' vision for success. We work as a partner to provide financial products and services that make banking safe, simple and convenient.</p>
                             <p style="margin-top:12px;">With a presence across multiple continents and a team of expert traders and analysts, we deliver consistent, measurable returns backed by cutting-edge technology and rigorous risk management protocols.</p>
                         </div>
                     </div>
@@ -263,7 +263,7 @@
                 <div class="row justify-content-center" style="margin-top:20px;">
                     <div class="col-lg-3 col-md-5 col-8 text-center">
                         <img src="/asset/images/blue-badge.png" alt="Trusted Platform Badge" style="max-width:160px; height:auto;">
-                        <p style="margin-top:10px; font-size:13px; color:#888;">Verified &amp; Trusted Investment Platform</p>
+                        <p style="margin-top:10px; font-size:13px; color:#888;">Verified &amp; Trusted Banking and Investment Platform</p>
                     </div>
                 </div>
             </div>

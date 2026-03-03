@@ -9,6 +9,7 @@
 <h1>Fast and secure for international transactions with 100% security.</h1>
 <p>At Fxbitoz Globals, we are constantly thinking about you!</p>
 <a href="{{ route('register') }}" class="btn btn-primary">Open an account</a>
+<br>
 </div>
 </div>
 </div>

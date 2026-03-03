@@ -101,7 +101,8 @@
 <li class="nav-item"><a href="{{ url('contact') }}" class="nav-link">Contact </a>
 
 </li>
-<li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Internet Banking</a></li>
+<li class="nav-item"><a href="{{ route('register') }}" class="nav-link">Register</a></li>
+<li class="nav-item"><a href="{{ route('login') }}" class="nav-link">Login</a></li>
 <li class="nav-item" style="height:40px; overflow: hidden;"><div id="google_translate_element"></div></li>
 
 

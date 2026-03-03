@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                    {{-- <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
                         <div class="footer-right">
                             <h2 class="footer-title">Get Updates!</h2>
                             <p>Sign up for our latest news & articles. We won’t give you spam mails.</p>
@@ -47,7 +47,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="footer-bottom">

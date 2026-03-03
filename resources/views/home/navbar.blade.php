@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="{{ asset('css1/meanmenu.min.css') }}">
     <!-- All min Css Start Here -->
     <link rel="stylesheet" href="{{ asset('css1/all.min.css') }}">
+    <!-- Font Awesome CDN fallback -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Style Css Start Here -->
     <link rel="stylesheet" href="{{ asset('css1/style.css') }}">
     <!-- Google Font Start Here -->
@@ -76,12 +78,17 @@
             <div id="header-menu" class="header-menu menu-layout1">
                 <div class="container">
                     <div class="row d-flex align-items-center">
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-2 col-lg-2 col-6">
                             <div class="logo-area">
                                 <a href="/" class="temp-logo">
                                     <img src="{{ asset('logo.png') }}" width="180" height="45" alt="logo" class="img-fluid">
                                 </a>
                             </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-end d-lg-none">
+                            <button class="meanmenu-reveal" style="display:block;" onclick="document.getElementById('dropdown').classList.toggle('mobile-menu-open')">
+                                <span></span><span></span><span></span>
+                            </button>
                         </div>
                         <div class="col-xl-8 col-lg-9 d-flex justify-content-end position-static">
                             <nav id="dropdown" class="template-main-menu">
