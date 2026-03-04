@@ -22,7 +22,7 @@
     <link href="account/temp/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="account/temp/css/line.css">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    {{-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --}}
     <!-- Main Css -->
     <link href="account/temp/css/style.css" rel="stylesheet" type="text/css" />
     <link href="account/temp/css/colors/default.css" rel="stylesheet">
@@ -657,7 +657,7 @@
             return e.which !== 32;
         });
     </script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    {{-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --}}
 
 </body>
 

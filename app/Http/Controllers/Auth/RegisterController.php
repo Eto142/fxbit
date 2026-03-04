@@ -57,10 +57,10 @@ class RegisterController extends Controller
             'third_phone' => ['nullable', 'string', 'max:20'],
             'third_address' => ['nullable', 'string', 'max:255'],
             
-        // CAPTCHA field required
-        'g-recaptcha-response' => 'required',
-    ], [
-        'g-recaptcha-response.required' => 'Please verify that you are not a robot.',
+    //     // CAPTCHA field required
+    //     'g-recaptcha-response' => 'required',
+    // ], [
+    //     'g-recaptcha-response.required' => 'Please verify that you are not a robot.',
             
             
         ]);
@@ -81,20 +81,20 @@ public function register(Request $request)
     // Validate form input first
     $this->validator($request->all())->validate();
 
-    // Verify Google reCAPTCHA
-    $verify = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-        'secret' => env('RECAPTCHA_SECRET_KEY'),
-        'response' => $request->input('g-recaptcha-response'),
-        'remoteip' => $request->ip(),
-    ])->json();
+    // // Verify Google reCAPTCHA
+    // $verify = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+    //     'secret' => env('RECAPTCHA_SECRET_KEY'),
+    //     'response' => $request->input('g-recaptcha-response'),
+    //     'remoteip' => $request->ip(),
+    // ])->json();
 
-    if (!($verify['success'] ?? false)) {
-        return back()
-            ->withErrors(['g-recaptcha-response' => 'ReCAPTCHA validation failed.'])
-            ->withInput();
-    }
+    // if (!($verify['success'] ?? false)) {
+    //     return back()
+    //         ->withErrors(['g-recaptcha-response' => 'ReCAPTCHA validation failed.'])
+    //         ->withInput();
+    // }
 
-    // If captcha passes → create user
+    // Create user
     $user = $this->create($request->all());
 
     $this->guard()->login($user);
