@@ -14,7 +14,6 @@
         (function() {
                 var options = {
                     whatsapp: "+16125249263", // WhatsApp number
-                    call_to_action: "Reach-out on Whatsapp", // Call to action
                     position: "left", // Position may be 'right' or 'left'
                 };
                 var proto = document.location.protocol,
