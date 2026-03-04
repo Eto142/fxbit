@@ -595,12 +595,12 @@
                                                 class="form-control" placeholder="Optional Referral ID">
                                         </div>
                                     </div>
-                                    
+{{--                                     
                                   <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"></div>
 
 @if ($errors->has('g-recaptcha-response'))
     <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-@endif
+@endif --}}
 
 
 
