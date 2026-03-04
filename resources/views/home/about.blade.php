@@ -42,7 +42,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="consulting-service2">
-                            <p>FXBit OZ Globals is a premier global banking investment and trading platform committed to empowering individuals and institutions with world-class financial solutions. Our employees are empowered to do the right thing to ensure they share our customers' vision for success. We work as a partner to provide financial products and services that make banking safe, simple and convenient.</p>
+                            <p>fxbitozglobals is a premier global banking investment and trading platform committed to empowering individuals and institutions with world-class financial solutions. Our employees are empowered to do the right thing to ensure they share our customers' vision for success. We work as a partner to provide financial products and services that make banking safe, simple and convenient.</p>
                             <p style="margin-top:12px;">With a presence across multiple continents and a team of expert traders and analysts, we deliver consistent, measurable returns backed by cutting-edge technology and rigorous risk management protocols.</p>
                         </div>
                     </div>
