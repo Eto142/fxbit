@@ -29,6 +29,7 @@ government, nonprofit and other civic organizations, particularly in the cities 
 </div>
 </div>
 <div class="copyright-area">
+     <p> © Fxbitoz Globals 2026. All Rights Reserved </p>
 </p>
 </div>
 </div>
