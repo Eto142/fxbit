@@ -165,21 +165,21 @@
 </div>
 </section>
 
-{{-- 
+
 <section class="app-download-area">
 <div class="container">
 <div class="row align-items-center">
 <div class="col-lg-6 col-md-12">
 <div class="app-image">
 <div class="main-image">
-<img src="assets/img/mobile-app1.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="image">
-<img src="assets/img/mobile-app2.png" class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
+<img src="{{ asset('assets1/img/mobile-app1.png') }}" class="wow fadeInLeft" data-wow-delay="0.6s" alt="image">
+<img src="{{ asset('assets1/img/mobile-app2.png') }}" class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
 </div>
 <div class="main-mobile-image">
-<img src="assets/img/main-mobile.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
+<img src="{{ asset('assets1/img/main-mobile.png') }}" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
 </div>
 <div class="circle-img">
-<img src="assets/img/circle.png" alt="image">
+<img src="{{ asset('assets1/img/circle.png') }}" alt="image">
 </div>
 </div>
 </div>
@@ -205,7 +205,7 @@ Download on
 </div>
 </div>
 </div>
-</section> --}}
+</section>
 
 
 <section class="account-create-area">
