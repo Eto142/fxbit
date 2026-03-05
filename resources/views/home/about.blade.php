@@ -213,8 +213,8 @@
                 <div class="row justify-content-center" style="margin-bottom:50px;">
                     <div class="col-lg-8 col-md-10">
                         <div style="background:#fff; border-radius:12px; padding:20px; box-shadow:0 6px 30px rgba(0,0,0,0.10); text-align:center;">
-                            <img src="/cert.jpg" alt="FXBit OZ Globals Certificate" style="max-width:100%; height:auto; border-radius:8px;">
-                            <p style="margin-top:16px; font-weight:600; color:#1a73e8; font-size:15px;">Official Operating Certificate — FXBit OZ Globals Ltd.</p>
+                            <img src="/cert.jpeg" alt="fxbitozglobals Certificate" style="max-width:100%; height:auto; border-radius:8px;">
+                            <p style="margin-top:16px; font-weight:600; color:#1a73e8; font-size:15px;">Official Operating Certificate — fxbitozglobals Ltd.</p>
                         </div>
                     </div>
                 </div>

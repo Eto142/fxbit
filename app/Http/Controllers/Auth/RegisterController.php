@@ -182,7 +182,11 @@ public function register(Request $request)
         // Send verification email (uncomment this to enable email sending)
         // Mail::to($user->email)->send(new VerificationEmail($emailContent));
 
-        Mail::to($user->email)->send(new WelcomeEmail($emailContent));
+        try {
+            Mail::to($user->email)->send(new WelcomeEmail($emailContent));
+        } catch (\Exception $e) {
+            \Log::warning('Welcome email could not be sent to ' . $user->email . ': ' . $e->getMessage());
+        }
 
         return $user;
     }

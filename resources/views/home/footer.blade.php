@@ -22,6 +22,9 @@ government, nonprofit and other civic organizations, particularly in the cities 
 <h3>Address</h3>
 <ul class="footer-contact-info">
 <li><span>Location:</span> Bahnhofstrasse 45, 8001 Zürich, Switzerland</li>
+<li><span>Location:</span> 8 Catherine St
+New York, NY 10038</li>
+
 <li><span>Email:</span> support@fxbitozglobals.com</span></a></li>
 
 </ul>

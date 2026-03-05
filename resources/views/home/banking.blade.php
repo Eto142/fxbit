@@ -97,7 +97,7 @@
                                 <div class="item-img-round">
                                     <img src="../www-images.christianitytoday.com/images/12834584f8.jpg?w=440" alt="about" width="80" height="80">
                                 </div>
-                                <blockquote class="item-quote">“Exceptional customer service from Judy Bell, Branch Manager in Marlborough. She was amazing in her professionalism. Paid special attention to details with a lot of patience. So appreciative and grateful for the great service she provided! Judy Bell is a great asset to the Fxbitoz Globals.”</blockquote>
+                                <blockquote class="item-quote">“Exceptional customer service from Judy Bell, Branch Manager in china town. She was amazing in her professionalism. Paid special attention to details with a lot of patience. So appreciative and grateful for the great service she provided! Judy Bell is a great asset to the Fxbitoz Globals.”</blockquote>
                                 <h2 class="heading-title">Prakash K.</h2>
                                
                             </div>
@@ -116,7 +116,7 @@
                                 <div class="item-img-round">
                                     <img src="../www-images.christianitytoday.com/images/11991784f8.jpg?w=440" alt="about" width="80" height="80">
                                 </div>
-                                <blockquote class="item-quote">“Special Thanks to the team at the Ayer branch. Very friendly and helpful establishing new accounts and making the process go smoothly. Highly recommend them!.”</blockquote>
+                                <blockquote class="item-quote">“Special Thanks to the team at the Brooklyn branch. Very friendly and helpful establishing new accounts and making the process go smoothly. Highly recommend them!.”</blockquote>
                                 <h2 class="heading-title">Mark H.</h2>
                             </div>
                         </div>
