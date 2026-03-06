@@ -155,16 +155,164 @@
 </section>
 
 
-<section class="feedback-area ptb-70 bg-f7fafd">
+<section class="feedback-area ptb-70 bg-f7fafd" style="background:#f9f9f9; padding:60px 0;">
 <div class="container">
-<div class="section-title">
-<h2>What customers say about Us</h2>
-<div class="bar"></div>
-<p>Our mission is to be the undisputed leading and dominant financial services institution.</p>
-</div>
+
+  <!-- Trustpilot Header -->
+  <div style="text-align:center; margin-bottom:40px;">
+    <div style="display:inline-flex; align-items:center; gap:10px; margin-bottom:12px;">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="#00b67a" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+      </svg>
+      <span style="font-size:1.5rem; font-weight:800; color:#191919; letter-spacing:-0.5px;">Trustpilot</span>
+    </div>
+    <div style="display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:6px;">
+      <div style="display:flex; gap:3px;">
+        @for($i=0;$i<5;$i++)
+        <div style="width:36px; height:36px; background:#00b67a; display:flex; align-items:center; justify-content:center; border-radius:3px;">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+        @endfor
+      </div>
+      <span style="font-size:1.1rem; font-weight:700; color:#191919;">4.8 out of 5</span>
+    </div>
+    <p style="color:#555; font-size:0.95rem; margin:0;">Based on <strong>2,847 reviews</strong> &nbsp;|&nbsp; <span style="color:#00b67a; font-weight:600;">Excellent</span></p>
+  </div>
+
+  <!-- Review Cards -->
+  <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:20px;">
+
+    <!-- Card 1 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">Transfers are instant and seamless</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">I've been using Fxbitoz Globals for over a year now. International transfers complete within minutes and the support team is always responsive. Highly recommended!</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#0056b3;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">JM</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">James Mitchell</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 2 days ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">My profits doubled in 3 months</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">The trading plans offered here are phenomenal. The returns are transparent and my account manager keeps me informed every step of the way. Real and trustworthy platform.</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#28a745;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">SA</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Sarah Anderson</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 5 days ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">Withdrawal processed same day</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">I was skeptical at first but my withdrawal was processed within hours. The customer support team answered all my questions quickly. This is a legitimate banking platform.</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#e74c3c;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">RK</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Robert Kim</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 1 week ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">Best online banking experience ever</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">Opening my account was simple and took less than 5 minutes. The dashboard is clean, easy to navigate, and all my transactions are recorded perfectly. 10/10 experience.</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#9b59b6;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">OL</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Olivia Laurent</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 2 weeks ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">Secure, reliable and professional</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">I've tried several online banks and Fxbitoz Globals stands above them all. The security features are top-notch and I feel my funds are completely safe. Excellent team behind this.</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#e67e22;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">DT</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">David Thompson</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 3 weeks ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div style="background:#fff; border-radius:8px; padding:24px; box-shadow:0 2px 12px rgba(0,0,0,0.07);">
+      <div style="display:flex; gap:3px; margin-bottom:14px;">
+        @for($i=0;$i<5;$i++)<div style="width:26px;height:26px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+      <h4 style="font-size:1rem; font-weight:700; color:#191919; margin:0 0 10px;">Amazing returns on investment plans</h4>
+      <p style="font-size:0.88rem; color:#444; line-height:1.6; margin:0 0 16px;">Started with a modest investment and the ROI exceeded my expectations. The profit tracking on the dashboard is very clear and I get email updates on every transaction. Love it!</p>
+      <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#1abc9c;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">AN</div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Amara Nwosu</div>
+          <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 1 month ago</div>
+        </div>
+        <div style="margin-left:auto;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Trustpilot badge -->
+  <div style="text-align:center; margin-top:36px;">
+    <div style="display:inline-flex; align-items:center; gap:10px; background:#fff; border-radius:8px; padding:14px 28px; box-shadow:0 2px 10px rgba(0,0,0,0.08);">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="#00b67a"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+      <span style="font-size:0.95rem; color:#555;">Rated <strong style="color:#191919;">Excellent</strong> on</span>
+      <span style="font-size:1rem; font-weight:800; color:#191919; letter-spacing:-0.5px;">Trustpilot</span>
+      <div style="display:flex; gap:2px;">
+        @for($i=0;$i<5;$i++)<div style="width:20px;height:20px;background:#00b67a;border-radius:2px;display:flex;align-items:center;justify-content:center;"><svg width="12" height="12" viewBox="0 0 24 24" fill="white"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>@endfor
+      </div>
+    </div>
+  </div>
 
 </div>
 </section>
+
 
 
 <section class="app-download-area">
