@@ -287,7 +287,7 @@
       <div style="display:flex; align-items:center; gap:10px; border-top:1px solid #f0f0f0; padding-top:14px;">
         <div style="width:36px;height:36px;border-radius:50%;background:#1abc9c;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.9rem;">AN</div>
         <div>
-          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Amara Nwosu</div>
+          <div style="font-size:0.85rem;font-weight:700;color:#191919;">Jane Maddison</div>
           <div style="font-size:0.78rem;color:#888;">Verified customer &nbsp;·&nbsp; 1 month ago</div>
         </div>
         <div style="margin-left:auto;">
