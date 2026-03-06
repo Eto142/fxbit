@@ -99,7 +99,7 @@
     </div>
 
     <div class="transaction-box">
-      <p>To <strong>{{ strtoupper($deposit->bank_name ?? $deposit->payment_mode) }}</strong></p>
+      <p><strong>{{ strtoupper($deposit->bank_name ?? $deposit->payment_mode) }}</strong></p>
       <h1>{{ $deposit->user->currency_symbol ?? '$' }}{{ number_format($deposit->amount, 2) }}</h1>
       <p class="success">
         <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Check_mark_2.svg" alt="✔">
