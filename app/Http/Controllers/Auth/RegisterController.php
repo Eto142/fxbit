@@ -132,9 +132,9 @@ public function register(Request $request)
      */
     protected function create(array $data)
     {
-        // Auto-generate unique account number
+        // Auto-generate unique 10-digit account number
         do {
-            $account_number =  mt_rand(1000000000, 9999999999);
+            $account_number = str_pad(random_int(1000000000, 9999999999), 10, '0', STR_PAD_LEFT);
         } while (User::where('account_number', $account_number)->exists());
 
 

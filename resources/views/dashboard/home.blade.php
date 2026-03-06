@@ -244,44 +244,24 @@
       <!-- Trading Card -->
       <div class="small-card card widget-flat my-4">
         <div class="trading-card p-3">
-          <!-- Main Wallet & Profit Wallet -->
+          <!-- Row 1: Account Balance & Approved Deposits -->
           <div class="row g-3 mb-3">
             <div class="col-6">
-              <h1 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($balance_sum, 2) }}</h1>
+              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($balance_sum, 2) }}</h3>
               <p class="text-center text-white h6">Account Balance</p>
             </div>
             <div class="col-6">
-              <h1 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($profit_sum, 2) }}</h1>
-              <p class="text-center text-white h6">Total Profit </p>
-            </div>
-          </div>
-
-          {{-- <!-- Additional Wallet Information -->
-          <div class="row g-3 mb-3">
-            <div class="col-6">
-              <h3 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($pending_deposits_sum, 2) }}</h3>
-              <p class="text-center text-white h6">Pending Deposits</p>
-            </div> --}}
-
-            <div class="col-6">
-              <h3 class="text-center text-white display-6"> {{Auth::user()->currency_symbol}} {{ number_format($successful_deposits_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($successful_deposits_sum, 2) }}</h3>
               <p class="text-center text-white h6">Approved Deposits</p>
             </div>
-
-
-
           </div>
 
-          <!-- Withdrawals Information -->
+          <!-- Row 2: Total Profit -->
           <div class="row g-3 mb-3">
-            {{-- <div class="col-6">
-              <h3 class="text-center text-white display-6"> {{Auth::user()->currency_symbol}} {{ number_format($pending_withdrawals_sum, 2) }}</h3>
-              <p class="text-center text-white h6">Pending Debits</p>
-            </div> --}}
-            {{-- <div class="col-6">
-              <h3 class="text-center text-white display-6">{{Auth::user()->currency_symbol}} {{ number_format($successful_withdrawals_sum, 2) }}</h3>
-              <p class="text-center text-white h6">Successful Debits</p>
-            </div> --}}
+            <div class="col-12">
+              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($profit_sum, 2) }}</h3>
+              <p class="text-center text-white h6">Total Profit</p>
+            </div>
           </div>
 
           <!-- Signal Strength -->
@@ -293,10 +273,24 @@
           <!-- Action Buttons -->
           <div class="row g-2">
             <div class="col-6">
-              <a href="{{ route('user.deposit') }}" class="btn btn-outline-primary w-100 h6">ADD FUNDS</a>
+              <a href="{{ route('user.deposit') }}" class="btn btn-outline-primary w-100 h6">
+                <i class="fas fa-plus-circle me-1"></i> ADD FUNDS
+              </a>
             </div>
             <div class="col-6">
-              <a href="{{ route('user.copy.trader.page') }}" class="btn btn-outline-primary w-100 h6">MY TRADERS (0)</a>
+              <a href="{{ route('user.withdrawal.page') }}" class="btn btn-outline-warning w-100 h6">
+                <i class="fas fa-money-bill-wave me-1"></i> SELF WITHDRAW
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="{{ route('user.intrabank.transfer.page') }}" class="btn btn-outline-info w-100 h6">
+                <i class="fas fa-exchange-alt me-1"></i> INTRA BANK TRANSFER
+              </a>
+            </div>
+            <div class="col-6">
+              <a href="{{ route('user.copy.trader.page') }}" class="btn btn-outline-success w-100 h6">
+                <i class="fas fa-users me-1"></i> MY TRADERS
+              </a>
             </div>
           </div>
         </div>
