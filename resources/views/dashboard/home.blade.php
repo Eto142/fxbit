@@ -244,14 +244,24 @@
       <!-- Trading Card -->
       <div class="small-card card widget-flat my-4">
         <div class="trading-card p-3">
+
+          <!-- Hide Amount Toggle -->
+          <div class="text-end mb-2">
+            <button id="toggleAmountBtn" onclick="toggleAmounts()" class="btn btn-sm btn-outline-light" style="font-size:0.78rem; padding:3px 10px; border-radius:20px; opacity:0.8;">
+              <i id="toggleAmountIcon" class="fas fa-eye-slash me-1"></i><span id="toggleAmountText">Hide Amount</span>
+            </button>
+          </div>
+
           <!-- Row 1: Account Balance & Approved Deposits -->
           <div class="row g-3 mb-3">
             <div class="col-6">
-              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($balance_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-amount" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($balance_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-hidden" style="font-size:1.35rem; display:none; letter-spacing:4px;">••••••</h3>
               <p class="text-center text-white h6">Account Balance</p>
             </div>
             <div class="col-6">
-              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($successful_deposits_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-amount" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($successful_deposits_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-hidden" style="font-size:1.35rem; display:none; letter-spacing:4px;">••••••</h3>
               <p class="text-center text-white h6">Approved Deposits</p>
             </div>
           </div>
@@ -259,10 +269,22 @@
           <!-- Row 2: Total Profit -->
           <div class="row g-3 mb-3">
             <div class="col-12">
-              <h3 class="text-center text-white fw-bold" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($profit_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-amount" style="font-size:1.35rem;">{{Auth::user()->currency_symbol}} {{ number_format($profit_sum, 2) }}</h3>
+              <h3 class="text-center text-white fw-bold balance-hidden" style="font-size:1.35rem; display:none; letter-spacing:4px;">••••••</h3>
               <p class="text-center text-white h6">Total Profit</p>
             </div>
           </div>
+
+          <script>
+            var _amountsHidden = false;
+            function toggleAmounts() {
+              _amountsHidden = !_amountsHidden;
+              document.querySelectorAll('.balance-amount').forEach(function(el){ el.style.display = _amountsHidden ? 'none' : ''; });
+              document.querySelectorAll('.balance-hidden').forEach(function(el){ el.style.display = _amountsHidden ? '' : 'none'; });
+              document.getElementById('toggleAmountIcon').className = _amountsHidden ? 'fas fa-eye me-1' : 'fas fa-eye-slash me-1';
+              document.getElementById('toggleAmountText').textContent = _amountsHidden ? 'Show Amount' : 'Hide Amount';
+            }
+          </script>
 
           <!-- Signal Strength -->
           <div class="progress mb-2">
