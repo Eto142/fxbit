@@ -288,17 +288,17 @@
           <!-- Action Buttons -->
           <div class="row g-2">
             <div class="col-6">
-              <a href="{{ route('user.deposit') }}" class="btn btn-outline-primary w-100 h6">
+              <a href="{{ route('user.deposit') }}" class="btn btn-outline-primary w-100 d-flex align-items-center justify-content-center" style="font-size:0.75rem; white-space:nowrap; height:38px;">
                 <i class="fas fa-plus-circle me-1"></i> ADD FUNDS
               </a>
             </div>
             <div class="col-6">
-              <a href="{{ route('user.withdrawal.page') }}" class="btn btn-outline-warning w-100 h6">
+              <a href="{{ route('user.withdrawal.page') }}" class="btn btn-outline-warning w-100 d-flex align-items-center justify-content-center" style="font-size:0.75rem; white-space:nowrap; height:38px;">
                 <i class="fas fa-money-bill-wave me-1"></i> SELF WITHDRAW
               </a>
             </div>
             <div class="col-6 offset-3">
-              <a href="{{ route('user.intrabank.transfer.page') }}" class="btn btn-outline-info w-100 h6">
+              <a href="{{ route('user.intrabank.transfer.page') }}" class="btn btn-outline-info w-100 d-flex align-items-center justify-content-center" style="font-size:0.75rem; white-space:nowrap; height:38px;">
                 <i class="fas fa-exchange-alt me-1"></i> INTRA BANK TRANSFER
               </a>
             </div>
