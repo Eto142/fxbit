@@ -92,12 +92,11 @@
         <!-- Marquee Notice -->
         <div class="marquee-container">
           <div class="marquee-text">
-            🔵 You can only make transfer or withdraw from trade account to trade account. &nbsp;&nbsp;&nbsp;
-            🔵 Before making transaction to your bank account make sure your bank account holder name and email ID are
-            the same with your trade account holder name and email ID. &nbsp;&nbsp;&nbsp;
-            🔵 Any other account you want to make transfer to must have the same account holder name or email ID with
-            your trade account to enable you make a successful transaction except transactions between two trade
-            accounts.
+            🆕Make transfer and receive funds from Fxbitozglobal trade accounts only
+
+ 🆕Third party bank account is not allowed for withdrawal. Withdraw to your personal bank account only.
+
+🆕Deposit/Add funds from your personal bank account or personal trade account. Third party deposit is not allowed.
           </div>
         </div>
         <!-- End Marquee -->
@@ -315,47 +314,48 @@
               </a>
             </div>
           </div>
+
+          <!-- Trade Charts: Apple, Microsoft, Tesla -->
+          <div class="mt-3">
+            <script type="text/javascript"
+              src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+              {
+          "symbols": [
+            [
+              "Apple",
+              "NASDAQ:AAPL|1D"
+            ],
+            [
+              "Microsoft",
+              "NASDAQ:MSFT|1D"
+            ],
+            [
+              "Tesla",
+              "NASDAQ:TSLA|1D"
+            ]
+          ],
+          "chartOnly": false,
+          "width": "100%",
+          "height": 250,
+          "locale": "en",
+          "colorTheme": "dark",
+          "autosize": false,
+          "showVolume": false,
+          "hideDateRanges": false,
+          "hideMarketStatus": false,
+          "hideSymbolLogo": false,
+          "scalePosition": "right",
+          "scaleMode": "Normal",
+          "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+          "fontSize": "10",
+          "noTimeScale": false,
+          "valuesTracking": "1",
+          "changeMode": "price-and-percent",
+          "chartType": "line"
+        }
+            </script>
+          </div>
         </div>
-      </div>
-      <!-- TradingView Widget -->
-      <div class="small-card card widget-flat my-4">
-        <script type="text/javascript"
-          src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-          {
-      "symbols": [
-        [
-          "Apple",
-          "NASDAQ:AAPL|1D"
-        ],
-        [
-          "Microsoft",
-          "NASDAQ:MSFT|1D"
-        ],
-        [
-          "Tesla",
-          "NASDAQ:TSLA|1D"
-        ]
-      ],
-      "chartOnly": false,
-      "width": "100%",
-      "height": 250,
-      "locale": "en",
-      "colorTheme": "dark",
-      "autosize": false,
-      "showVolume": false,
-      "hideDateRanges": false,
-      "hideMarketStatus": false,
-      "hideSymbolLogo": false,
-      "scalePosition": "right",
-      "scaleMode": "Normal",
-      "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
-      "fontSize": "10",
-      "noTimeScale": false,
-      "valuesTracking": "1",
-      "changeMode": "price-and-percent",
-      "chartType": "line"
-    }
-        </script>
       </div>
 
 

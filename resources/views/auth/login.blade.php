@@ -616,5 +616,32 @@
             document.getElementById('email').focus();
         });
     </script>
+
+    
+ <div class="gtranslate_wrapper"></div>
+<style>
+    .gt_switcher_wrapper { transform: scale(0.55); transform-origin: top right; }
+</style>
+<script>
+    window.gtranslateSettings = {
+        "default_language": "en",
+        "detect_browser_language": true,
+        "wrapper_selector": ".gtranslate_wrapper",
+        "switcher_horizontal_position": "right",
+        "switcher_vertical_position": "bottom",
+        "flags_size": 12,
+        "switcher_text_size": 9,
+        "alt_flags": {
+            "en": "usa",
+            "pt": "brazil",
+            "es": "colombia",
+            "fr": "quebec"
+        }
+    };
+</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+
+        
+      
 </body>
 </html>
