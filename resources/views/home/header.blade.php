@@ -110,9 +110,8 @@
 <div class="luvion-nav">
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-light">
-<a class="navbar-brand d-flex align-items-center" href="/" style="gap:10px;">
+<a class="navbar-brand" href="/">
 <img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" style="max-height:55px; width:auto; object-fit:contain;">
-<span style="font-size:0.72rem; color:#fff; line-height:1.4; max-width:140px; display:inline-block;">Fast and secure for international transactions with 100% security.</span>
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav">
