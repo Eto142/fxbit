@@ -52,25 +52,24 @@
 
 <title>Fxbitoz Globals — Fast &amp; Secure International Transactions</title>
 
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Fast and secure platform for international transactions with 100% security. Trade, invest and transfer funds globally with Fxbitoz Globals.">
+<meta name="description" content="Fast and secure for international transactions with 100% security. Trade, invest and transfer funds globally with Fxbitoz Globals.">
 <meta name="keywords" content="forex trading, international transactions, secure investment, fxbitoz, online trading platform">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Fxbitoz Globals">
 
-<!-- Open Graph / Facebook -->
+<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ url('/') }}">
 <meta property="og:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
-<meta property="og:description" content="Fast and secure platform for international transactions with 100% security.">
+<meta property="og:description" content="Fast and secure for international transactions with 100% security.">
 <meta property="og:image" content="{{ asset('logo.png') }}">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
-<meta name="twitter:description" content="Fast and secure platform for international transactions with 100% security.">
+<meta name="twitter:description" content="Fast and secure for international transactions with 100% security.">
 <meta name="twitter:image" content="{{ asset('logo.png') }}">
 
 <link rel="stylesheet" href="{{ asset('assets1/css/bootstrap.min.css') }}">
@@ -85,8 +84,6 @@
 <link rel="stylesheet" href="{{ asset('assets1/css/odometer.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets1/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets1/css/responsive.css') }}">
-<title>
-</title>
 <link rel="icon" type="image/png" href="{{ asset('assets1/img/favicon.png') }}">
 </head>
 
@@ -104,7 +101,7 @@
 <div class="luvion-responsive-menu">
 <div class="logo">
 <a href="/">
-<img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" style="max-height:55px; width:auto; display:block;">
+<img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" style="max-height:55px; width:auto;">
 </a>
 </div>
 </div>
@@ -114,7 +111,7 @@
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-light">
 <a class="navbar-brand d-flex align-items-center" href="/" style="gap:10px;">
-<img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" style="max-height:55px; width:auto; object-fit:contain; display:block;">
+<img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" style="max-height:55px; width:auto; object-fit:contain;">
 <span style="font-size:0.72rem; color:#fff; line-height:1.4; max-width:140px; display:inline-block;">Fast and secure for international transactions with 100% security.</span>
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
