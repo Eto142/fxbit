@@ -65,6 +65,8 @@
 <meta property="og:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
 <meta property="og:description" content="Fast and secure for international transactions with 100% security.">
 <meta property="og:image" content="{{ url('og-logo.png') }}">
+<meta property="og:image:secure_url" content="{{ url('og-logo.png') }}">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Fxbitoz Globals">
