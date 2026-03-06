@@ -64,7 +64,7 @@
 <meta property="og:url" content="{{ url('/') }}">
 <meta property="og:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
 <meta property="og:description" content="Fast and secure for international transactions with 100% security.">
-<meta property="og:image" content="{{ url('logo.png') }}">
+<meta property="og:image" content="{{ url('og-logo.png') }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Fxbitoz Globals">
@@ -73,7 +73,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
 <meta name="twitter:description" content="Fast and secure for international transactions with 100% security.">
-<meta name="twitter:image" content="{{ url('logo.png') }}">
+<meta name="twitter:image" content="{{ url('og-logo.png') }}">
 <meta name="twitter:image:alt" content="Fxbitoz Globals">
 
 <link rel="stylesheet" href="{{ asset('assets1/css/bootstrap.min.css') }}">
