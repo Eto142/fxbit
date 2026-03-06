@@ -285,12 +285,6 @@
             }
           </script>
 
-          <!-- Signal Strength -->
-          <div class="progress mb-2">
-            <div class="progress-bar" style="width: {{Auth::user()->signal_strength}}%;"></div>
-          </div>
-          <p class="text-center text-white h6 mb-3">SIGNAL STRENGTH</p>
-
           <!-- Action Buttons -->
           <div class="row g-2">
             <div class="col-6">
@@ -303,20 +297,26 @@
                 <i class="fas fa-money-bill-wave me-1"></i> SELF WITHDRAW
               </a>
             </div>
-            <div class="col-6">
+            <div class="col-12">
               <a href="{{ route('user.intrabank.transfer.page') }}" class="btn btn-outline-info w-100 h6">
                 <i class="fas fa-exchange-alt me-1"></i> INTRA BANK TRANSFER
               </a>
             </div>
-            <div class="col-6">
-              <a href="{{ route('user.copy.trader.page') }}" class="btn btn-outline-success w-100 h6">
-                <i class="fas fa-users me-1"></i> MY TRADERS
-              </a>
+          </div>
+
+          <!-- Signal Strength & My Traders above chart -->
+          <div class="mt-3 mb-1">
+            <p class="text-center text-white h6 mb-1">SIGNAL STRENGTH</p>
+            <div class="progress mb-3" style="height:10px;">
+              <div class="progress-bar bg-success" style="width: {{Auth::user()->signal_strength}}%;"></div>
             </div>
+            <a href="{{ route('user.copy.trader.page') }}" class="btn btn-outline-success w-100 h6 mb-2">
+              <i class="fas fa-users me-1"></i> MY TRADERS
+            </a>
           </div>
 
           <!-- Trade Charts: Apple, Microsoft, Tesla -->
-          <div class="mt-3">
+          <div class="mt-0">
             <script type="text/javascript"
               src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
               {
