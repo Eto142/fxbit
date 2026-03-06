@@ -50,11 +50,28 @@
 
 
 
-<title>Fxbitoz Globals</title>
+<title>Fxbitoz Globals — Fast &amp; Secure International Transactions</title>
 
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Fast and secure platform for international transactions with 100% security. Trade, invest and transfer funds globally with Fxbitoz Globals.">
+<meta name="keywords" content="forex trading, international transactions, secure investment, fxbitoz, online trading platform">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Fxbitoz Globals">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ url('/') }}">
+<meta property="og:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
+<meta property="og:description" content="Fast and secure platform for international transactions with 100% security.">
+<meta property="og:image" content="{{ asset('logo.png') }}">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fxbitoz Globals — Fast &amp; Secure International Transactions">
+<meta name="twitter:description" content="Fast and secure platform for international transactions with 100% security.">
+<meta name="twitter:image" content="{{ asset('logo.png') }}">
 
 <link rel="stylesheet" href="{{ asset('assets1/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets1/css/animate.min.css') }}">
@@ -97,9 +114,9 @@
 <div class="luvion-nav">
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-light">
-<a class="navbar-brand" href="/">
-<img src="{{ asset('logo.png') }}" alt="logo" width="100px">
-<img src="logo.png" alt="logo" width="100px"> 
+<a class="navbar-brand d-flex align-items-center" href="/">
+<img src="{{ asset('logo.png') }}" alt="Fxbitoz Globals" width="70px" style="margin-right:10px;">
+<span style="font-size:0.72rem; color:#fff; line-height:1.3; max-width:130px; display:inline-block;">Fast and secure for international transactions with 100% security.</span>
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav">
