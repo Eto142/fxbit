@@ -9,7 +9,7 @@
 
 <head>
 
-   <!-- WhatsApp Float Button -->
+   <!-- WhatsApp Float Button styles only (div moved to body) -->
     <style>
         .whatsapp-float {
             position: fixed;
@@ -38,14 +38,6 @@
             fill: #fff;
         }
     </style>
-    <div class="whatsapp-float">
-        <a href="https://wa.me/16125249263" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.455-2.006A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 0 1-6.758-1.845l-.484-.287-5.017 1.19 1.22-4.878-.316-.502A13.267 13.267 0 0 1 2.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.307-9.987c-.4-.2-2.366-1.168-2.732-1.3-.367-.133-.634-.2-.9.2s-1.033 1.3-1.267 1.567c-.233.267-.467.3-.867.1-.4-.2-1.688-.622-3.215-1.983-1.188-1.06-1.99-2.37-2.223-2.77-.233-.4-.025-.616.175-.815.18-.178.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.674-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5s-1.4 1.367-1.4 3.333 1.433 3.867 1.633 4.133c.2.267 2.82 4.307 6.833 6.033.955.412 1.7.658 2.281.843.958.305 1.831.262 2.52.159.769-.115 2.366-.967 2.7-1.9.333-.933.333-1.733.233-1.9-.1-.167-.367-.267-.767-.467z"/>
-            </svg>
-        </a>
-    </div>
-    <!-- /WhatsApp Float Button -->
 
 
 
@@ -61,11 +53,12 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ url('/') }}">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:site_name" content="Fxbitoz Globals">
 <meta property="og:title" content="Fxbitoz Globals  Fast &amp; Secure International Transactions">
 <meta property="og:description" content="Fast and secure for international transactions with 100% security.">
-<meta property="og:image" content="{{ url('og-logo.png') }}">
-<meta property="og:image:secure_url" content="{{ url('og-logo.png') }}">
+<meta property="og:image" content="{{ asset('og-logo.png') }}">
+<meta property="og:image:secure_url" content="{{ asset('og-logo.png') }}">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -75,7 +68,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Fxbitoz Globals  Fast &amp; Secure International Transactions">
 <meta name="twitter:description" content="Fast and secure for international transactions with 100% security.">
-<meta name="twitter:image" content="{{ url('og-logo.png') }}">
+<meta name="twitter:image" content="{{ asset('og-logo.png') }}">
 <meta name="twitter:image:alt" content="Fxbitoz Globals">
 
 <link rel="stylesheet" href="{{ asset('assets1/css/bootstrap.min.css') }}">
@@ -92,6 +85,16 @@
 <link rel="stylesheet" href="{{ asset('assets1/css/responsive.css') }}">
 <link rel="icon" type="image/png" href="{{ asset('assets1/img/favicon.png') }}">
 </head>
+
+<!-- WhatsApp Float Button -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/16125249263" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.737 5.469 2.027 7.77L0 32l8.455-2.006A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm0 29.333a13.27 13.27 0 0 1-6.758-1.845l-.484-.287-5.017 1.19 1.22-4.878-.316-.502A13.267 13.267 0 0 1 2.667 16C2.667 8.636 8.636 2.667 16 2.667S29.333 8.636 29.333 16 23.364 29.333 16 29.333zm7.307-9.987c-.4-.2-2.366-1.168-2.732-1.3-.367-.133-.634-.2-.9.2s-1.033 1.3-1.267 1.567c-.233.267-.467.3-.867.1-.4-.2-1.688-.622-3.215-1.983-1.188-1.06-1.99-2.37-2.223-2.77-.233-.4-.025-.616.175-.815.18-.178.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.167-1.233-2.967-.325-.78-.655-.674-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5s-1.4 1.367-1.4 3.333 1.433 3.867 1.633 4.133c.2.267 2.82 4.307 6.833 6.033.955.412 1.7.658 2.281.843.958.305 1.831.262 2.52.159.769-.115 2.366-.967 2.7-1.9.333-.933.333-1.733.233-1.9-.1-.167-.367-.267-.767-.467z"/>
+        </svg>
+    </a>
+</div>
+<!-- /WhatsApp Float Button -->
 
 <div class="preloader">
 <div class="loader">
