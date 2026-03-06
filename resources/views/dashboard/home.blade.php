@@ -297,7 +297,7 @@
                 <i class="fas fa-money-bill-wave me-1"></i> SELF WITHDRAW
               </a>
             </div>
-            <div class="col-12">
+            <div class="col-6 offset-3">
               <a href="{{ route('user.intrabank.transfer.page') }}" class="btn btn-outline-info w-100 h6">
                 <i class="fas fa-exchange-alt me-1"></i> INTRA BANK TRANSFER
               </a>
