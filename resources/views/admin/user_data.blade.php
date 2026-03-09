@@ -58,15 +58,15 @@
                             <div class="p-3 mt-4 border rounded row text-light">
                                 <div class="col-md-3">
                                     <h5 class="text-bold">Account Balance</h5>
-                                    <p>${{number_format($balance_sum, 2, '.', ',')}}</p>
+                                    <p>{{$user->currency}}{{number_format($balance_sum, 2, '.', ',')}}</p>
                                 </div>
                                 <div class="col-md-3">
                                     <h5>Total Profit</h5>
-                                    <p>${{number_format($profit_sum, 2, '.', ',')}}</p>
+                                    <p>{{$user->currency}}{{number_format($profit_sum, 2, '.', ',')}}</p>
                                 </div>
                                 <div class="col-md-3">
                                     <h5>Total Deposit</h5>
-                                    <p>${{number_format($successful_deposits_sum, 2, '.', ',')}}</p>
+                                    <p>{{$user->currency}}{{number_format($successful_deposits_sum, 2, '.', ',')}}</p>
                                 </div>
                                 <div class="col-md-3">
                                     <h5>User Account Status</h5>
