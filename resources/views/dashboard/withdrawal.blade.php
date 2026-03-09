@@ -59,9 +59,9 @@
                                
                                             
                                             
-                                        <option value="deposit">Deposit ({{ Auth::user()->currency }}{{ number_format($successful_deposits_sum, 2)
+                                        <option value="deposit">Deposit ({{ Auth::user()->currency_symbol }}{{ number_format($successful_deposits_sum, 2)
                                             }})</option>
-                                        <option value="profit">Profit ({{ Auth::user()->currency }}{{ number_format($profit_sum, 2) }})</option>
+                                        <option value="profit">Profit ({{ Auth::user()->currency_symbol }}{{ number_format($profit_sum, 2) }})</option>
                                     </select>
                                 </div>
 
