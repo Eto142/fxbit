@@ -103,6 +103,9 @@
 
         <!-- Account Details -->
         <h5 class="text-dark mt-3 text-center">
+          <b>Account Type:</b> {{ Auth::user()->account_type }}
+        </h5>
+        <h5 class="text-dark text-center">
           <b>Account Number:</b> {{ Auth::user()->account_number }}
         </h5>
 

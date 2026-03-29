@@ -333,6 +333,8 @@
                                 <option value="">Select Account Type</option>
                                 <option value="Personal" {{ old('account_type') == 'Personal' ? 'selected' : '' }}>Personal Account</option>
                                 <option value="Joint"    {{ old('account_type') == 'Joint'    ? 'selected' : '' }}>Joint Account</option>
+                                <option value="Auto Forex Trading (Long Term)" {{ old('account_type') == 'Auto Forex Trading (Long Term)' ? 'selected' : '' }}>Auto Forex Trading (Long Term Forex Trading)</option>
+                                <option value="Auto Forex Trading (Short Term)" {{ old('account_type') == 'Auto Forex Trading (Short Term)' ? 'selected' : '' }}>Auto Forex Trading (Short Term Forex Trading)</option>
                             </select>
                             <div class="error-message">@error('account_type'){{ $message }}@enderror</div>
                         </div>
