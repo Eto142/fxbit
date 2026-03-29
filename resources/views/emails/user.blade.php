@@ -449,8 +449,8 @@
                                                    <td style="font-family: 'Hind Siliguri', Calibri, Sans-serif; font-size: 16px; color: #000;">
     Please contact us if you need assistance or guidelines on how to activate your account. 
     <br>
-    <a href="https://wa.me/+16125249263" style="color: blue; text-decoration: none;">
-        https://wa.me/+16125249263
+    <a href="https://wa.me/+18738935813" style="color: blue; text-decoration: none;">
+        https://wa.me/+18738935813
     </a>
     <br>
     Email: 

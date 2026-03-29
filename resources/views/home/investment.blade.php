@@ -42,7 +42,7 @@
                                 <ul>
                                     <li><i class="fas fa-map-marker-alt"></i>Bahnhofstrasse 45, 8001 Zürich, Switzerland</li>
                                     <li><i class="fas fa-envelope"></i>support@fxbitozglobals.com</li>
-                                    <li><i class="fas fa-phone-alt"></i>+1 (612) 524-9263</li>
+                                    <li><i class="fas fa-phone-alt"></i>+1 (873) 893-5813</li>
                                 </ul>    
                             </div>
                         </div>

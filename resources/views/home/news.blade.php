@@ -75,7 +75,7 @@
                                         <div class="item-icon"><i class="far fa-comments"></i></div>   
                                         <div class="banner-content">
                                             <div class="item-hotline">Hotline</div>
-                                            <div class="item-number">+1 (612) 524-9263</div>
+                                            <div class="item-number">+1 (873) 893-5813</div>
                                         </div>
                                     </div>
                                     <div class="item-icon-box item-icon-box2">

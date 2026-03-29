@@ -47,7 +47,7 @@
                         <div class="contact-box1">
                             <h2 class="heading-title">Office Phone Number</h2>
                             <ul class="contact-list">
-                                <li>+1 (612) 524-9263</li>
+                                <li>+1 (873) 893-5813</li>
                                
                             </ul>
                             <div class="contact-icon">
@@ -160,7 +160,7 @@
                                         <div class="item-icon"><i class="far fa-comments"></i></div>   
                                         <div class="banner-content">
                                             <div class="item-hotline">Hotline</div>
-                                            <div class="item-number">+1 (612) 524-9263</div>
+                                            <div class="item-number">+1 (873) 893-5813</div>
                                         </div>
                                     </div>
                                     <div class="item-icon-box item-icon-box2">
