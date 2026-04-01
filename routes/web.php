@@ -23,6 +23,7 @@ use App\Http\Controllers\Admin\WithdrawalController;
 use App\Http\Controllers\Admin\SmtpSettingController;
 use App\Http\Controllers\Admin\TradingPlanController;
 use App\Http\Controllers\Admin\PaymentSettingController;
+use App\Http\Controllers\Admin\WhatsappController;
 use App\Mail\ContactMail;
 
 Route::get('/', function () {
@@ -348,6 +349,10 @@ Route::put('/admin/users/{user}/other', [AdminController::class, 'updateOther'])
         Route::get('/trading-plans/edit/{id}', [TradingPlanController::class, 'edit'])->name('admin.edit-trading-plan');
         Route::post('/trading-plans/update/{id}', [TradingPlanController::class, 'update'])->name('admin.update-trading-plan');
         Route::delete('/trading-plans/delete/{id}', [TradingPlanController::class, 'destroy'])->name('admin.delete-trading-plan');
+
+        // WhatsApp Settings
+        Route::get('/whatsapp-settings', [WhatsappController::class, 'index'])->name('admin.whatsapp.index');
+        Route::put('/whatsapp-settings', [WhatsappController::class, 'update'])->name('admin.whatsapp.update');
         Route::post('/add-signal-strength', [AdminController::class, 'addSignalStrength'])->name('admin.add_signal_strength');
         Route::get('/user/{id}/trades', [TradeController::class, 'index'])->name('admin.user.trades');
         Route::post('/trades', [TradeController::class, 'store'])->name('admin.trades.store');

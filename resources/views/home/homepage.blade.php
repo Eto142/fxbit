@@ -5,6 +5,7 @@
 <div class="d-table-cell">
 <div class="container">
 <div class="main-banner-content">
+  {{-- <h1>  AUTO FOREX TRADING </h1> --}}
     <p style="color:#00e676; font-size:14px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:8px;"><i class="fas fa-globe" style="margin-right:6px;"></i> Global Bank</p>
 {{-- <h1>We offer a wide range of bank accounts for your banking needs.</h1> --}}
 <h1>Fast and secure for international transactions with 100% security.</h1>

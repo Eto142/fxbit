@@ -327,6 +327,13 @@
                                     <p>Payment Settings</p>
                                 </a>
                             </li>
+
+                            <li class="nav-item">
+                                <a href="{{ route('admin.whatsapp.index') }}">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                                    <p>WhatsApp Settings</p>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
