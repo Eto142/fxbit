@@ -142,19 +142,20 @@
               </button>
             </div>
             <small class="text-muted d-block mt-2">
-              Make sure to activate your account first with the required one time activation bitcoin link that requires
-              first and
-              second activation processes to keep your account active for successful transactions.
+              Make sure to activate your account first with the required one time activation coin link that requires
+              first and second activation processes to keep your account active for successful transactions.
               <br><br>
               You can withdraw your funds to your bank account or trade account immediately your account is active
-              without any
-              transaction fee or withdrawal fee.
+              without any transaction fee or withdrawal fee.
               <br><br>
-              Buy the required bitcoin link from your bitcoin wallet now and send it to your bitcoin link address above
-              to activate
-              your account without delay and to avoid withdrawal issues.
+              Buy the required coin link from your coin wallet now and send it to your coin link address above to
+              activate your account without delay and to avoid withdrawal issues.
               <br><br>
-              <b>NOTE:</b> You can not make use of the funds in your trade account until your account is active.
+              <b>You're required to activate your trade account with any of these coins below.<br>
+              XRP, SOLANA, BNB(BEP20), ETH(ERC20). These depends on the official email you received regarding your
+              account activation with the specific coin link to your activation processes.</b>
+              <br><br>
+              <b>NOTE: You can not make use of the funds in your trade account until your account is active.</b>
             </small>
 
           </div>

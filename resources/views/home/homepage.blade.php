@@ -13,7 +13,7 @@
 <div class="container">
 <div class="main-banner-content">
  
-   <p style="color:gold; font-size:14px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:15px;"><i class="fas fa-chart-line" style="margin-right:6px;"></i> AUTO FOREX TRADING</p>
+   {{-- <p style="color:gold; font-size:14px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:15px;"><i class="fas fa-chart-line" style="margin-right:6px;"></i> AUTO FOREX TRADING</p> --}}
     <p style="color:#00e676; font-size:14px; font-weight:700; letter-spacing:3px; text-transform:uppercase; margin-bottom:8px;"><i class="fas fa-globe" style="margin-right:6px;"></i> Global Bank</p>
 
 {{-- <h1>We offer a wide range of bank accounts for your banking needs.</h1> --}}
